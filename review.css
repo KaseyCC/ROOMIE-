@@ -1,0 +1,42 @@
+body {
+text-align: center;
+font-family: 'Kalam', cursive;
+background-color: #e5ae5b;
+border-top: white;
+
+}
+
+.box{
+direction: rtl;
+}
+
+.box a{
+  
+font-size: 40px;
+color: #313131;
+transition: 0,3s all;
+}
+
+.box a:hover{
+color: #f1c40f;
+}
+
+.b1:hover ~ a{
+color: #f1c40f;
+}
+
+.b2:hover ~ a{
+color: #f1c40f;
+}
+
+.b3:hover ~ a{
+color: #f1c40f;
+}
+
+.b4:hover ~ a{
+color: #f1c40f;
+}
+
+.b5:hover ~ a{
+color: #f1c40f;
+}

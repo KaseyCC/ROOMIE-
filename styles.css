@@ -1,0 +1,147 @@
+.paralax{
+ background: url("http://cdn.24.co.za/files/Cms/General/d/7563/eb8db282b6c64b219895513a7516d4fc.jpg") no-repeat center;
+ background-size: cover;
+ background-attachment: fixed;
+ height: 500px;
+}
+h1{
+font-family: 'Open Sans Condensed', sans-serif;
+  /* height: 355px;
+  width: 355px; */
+  /* object-fit: cover; */
+  /* border: 10px solid white;
+  margin: 10px;
+  padding: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  font-size: 55px;
+}
+img{
+  height: 355px;
+  width: 355px;
+  /* object-fit: cover; */
+  border: 10px solid white;
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+body{
+  background-color: white;
+}
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #856862;
+  color: white;
+  font-size: 20px;
+  display: block;
+
+}
+.pictures{
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+p {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+
+.second {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+}
+button{
+  size:35px;
+  color: black;
+  display: inline-block;
+}
+
+div {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #CEF6F5;
+}
+/* p5{
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: inherit;
+  text-indent: inherit;
+}  */
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+  height:150px;
+
+}
+
+/* Clear floats after containers */
+.container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin: auto;
+  float: left;
+  display: block;
+  height: auto;
+  Width: auto;
+
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 100px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin: auto;
+    float: none;
+    display: block;
+    height: auto;
+    Width: auto;
+  }
+}
+p7{
+  text-decoration-color:#CEF6F5;
+}
+.list{
+  text-align: left;
+  display: inline-flex;
+  font-size: 35px
+
+}
+
+.list-item{
+  padding: 20px;
+  margin: 0px;
+}

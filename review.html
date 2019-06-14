@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Roomie Feedback</title>
+  <link rel="stylesheet" href="review.css">
+  <link rel=icon href=https://www.freelogodesign.org/file/app/client/thumb/b1220099-c74a-4f7c-afbe-ca5f67b3e3e6_200x200.png?1560344630228>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1> How was your Roomie this year? <h1>
+<div class="box">
+<a id="first" class="fas fa-star b1"></a>
+<a id="second" class="fas fa-star b2"></a>
+<a id="third" class="fas fa-star b3"></a>
+<a id="fourth" class="fas fa-star b4"></a>
+<a id="fifth" class="fas fa-star b5"></a>
+</div>
+
+<ol>
+<h4> If your Roomie was bad, how so? </h4>
+<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="your feedback . . . . " style = "width:950px;"></textarea>
+<input type="submit" value="Submit" onclick="insert()" style="width:50px;"</input>
+</div>
+<div id="display"></div>
+
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+</script>
+<section>
+<h4> What can we do to make your Roomie experience better? </h4>
+<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="your feedback . . . . " style = "width:950px;"></textarea>
+<input type="submit" value="Submit" onclick="insert()" style="width:50px;" /></form>
+</div>
+<div id="display"></div>
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+
+}
+</script>
+
+
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
